@@ -1,7 +1,6 @@
 const Employee = require('./Employe');
-const reporter = require('./reporter.js');
 
-function run() {
+function run(reporter) {
     // Simulate get employees
     const alice = new Employee('Alice', 'junior', 30, 0);
     const bob = new Employee('bob', 'regular', 40, 10);
